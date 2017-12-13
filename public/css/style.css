@@ -1,0 +1,485 @@
+body{
+
+}
+ul{
+	list-style-type: none;
+	padding: 0;
+}
+.hidden{
+	display: none;
+}
+.logo img{
+	min-width: 239px; ;
+}
+
+#datatables {
+  overflow: auto;
+}
+.sidebar .logo{
+	height: 91px;
+}
+
+/*login page */
+
+.card{
+	padding-bottom: 30px;
+}
+
+.card-login .register-label{
+	margin-top: 20px;
+}
+
+.login .main-panel{
+	width: calc(100%);
+}
+
+.sidebar[data-background-color="brown"] .nav li:not(.active) > a:hover{
+	color: #ef8157
+}
+.media{
+	display: inline-block;
+    float: left;
+    margin-right: 25px;
+}
+.media .btn.btn-icon{
+	border-radius: 25px;
+    padding: 0px 6px;
+}
+.product-table .text-right{
+	min-width: 124px;
+}
+.product-table .text-right a.btn-default{
+	background: rgb(116, 207, 251);
+}
+section.register{
+	/*background: url("../../assets/img/bg-register.jpg");*/
+}
+
+/*customization of modal that show product details*/
+
+.modal-backdrop.fade.in{
+	z-index: 0;
+}
+/*modal-body .name,
+.modal-body .description,
+.modal-body .size-inch,
+.modal-body .size-cm,
+.modal-body .color,
+.modal-body .composition,
+.modal-body .form,
+.modal-body .weight,
+.modal-body .unit-price,
+.modal-body .wholesale-price,
+.modal-body .special-price,
+.modal-body .wholesale-price,
+.modal-body .internet-price,
+.modal-body .package,
+.modal-body */
+.modal-body .name{
+    font-size: 20px;
+    color: #000;
+}
+.modal-body .category{
+	padding: 13px 0;
+    font-size: 17px;
+    color: #525252;
+}
+.modal-body .description{
+    font-size: 20px;
+    color: #000;
+}
+.modal-body .list-items ul li{
+	padding: 5px 0;
+	transition: all 0.5s;
+}
+.modal-body .list-items ul li:hover{
+	padding: 5px 8px;
+	color: #ca4918;
+	cursor: pointer;
+}
+div.dataTables_wrapper div.dataTables_filter input:before {
+    content: "\f178";
+}
+
+div.dataTables_wrapper div.dataTables_filter input{
+	border-radius: 5px;
+	color: #000;
+	-webkit-transition: all 1s ease-in-out;;
+	transition: all 1s ease-in-out;
+	margin-bottom: 10px;
+}
+div.dataTables_wrapper div.dataTables_length select{
+	min-width: 91px;
+}
+div.dataTables_wrapper div.dataTables_filter input:focus{
+	width: 319px;
+	border-color: #0095ff;
+    box-shadow: inset 0 0 4px #eff0f1, 0 0 5px rgba(0,149,255,0.5);
+    outline: 0;
+}
+select.input-sm {
+    height: 35px;
+    line-height: 35px;
+}
+.filter{
+	margin-bottom: 20px;
+}
+select option.parent-labelle{
+	font-size: 16px;
+	font-weight: bold;
+	color: #000;
+}
+select option.children-labelle{
+	font-size: 14px;
+	color: gray;
+}
+
+select#productbundle_product_categories optgroup {
+    /*border-bottom: 1px dotted gray;*/
+    margin-bottom: 15px;
+}
+
+select#productbundle_product_categories > option {
+    color: #252422;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+select#productbundle_product_categories optgroup option {
+    color: #404040;
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 3px;
+}
+
+/* details produit */
+.details .card{
+	padding: 35px 22px;
+}
+.details .detail-hr{
+	position: relative;
+}
+.details span.delimeter:before{
+    content: "";
+    height: 1px;
+    background-color: #b3b3b3;
+    position: absolute;
+    color: red;
+    width: 83%;
+    top: -7px;
+    right: -4px;
+}
+.details .item{
+	padding: 9px 0;
+    color: black;
+}
+.details .item span{
+	font-weight: bold;
+}
+.details .item .color{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	display: inline-block;
+}
+.details span.detail-title{
+	font-weight: bold;
+    font-size: 18px;
+}
+
+.prevent-remove{
+	background: #cdcdcd !important;
+    cursor: not-allowed;
+}
+
+#loading-cat,
+#loading-sub-cat,
+#loading-prov,
+#loading-child-cat{
+	display: none;
+}
+
+.alert-dismissable .close, 
+.alert-dismissible .close
+{
+	right: 0 !important;
+}
+.alert h4{
+	margin-bottom: 0;
+}
+
+.fa-check{
+	color: green;
+	font-size: 16px;
+}
+
+.fa-ban{
+	color: red;
+	font-size: 16px;
+}
+
+.copyright-section{
+	color: white;
+	padding: 10px 31px;
+	position: absolute;
+    bottom: 0;
+}
+.copyright-section p{
+	font-size: 12px;
+	border-bottom: 1px dotted gray;
+}
+.details .card h4 {
+	margin-top: 0;
+}
+.sidebar .logo .simple-text{
+	padding: 0;
+}
+
+.go-back i{
+	font-size: 38px;
+}
+
+.card .content .title{
+	margin-bottom: 30px;
+}
+
+.table > thead > tr > th{
+	font-size: 12px;
+	padding-right: 8px !important;
+	background: #364150;
+	color: #fff;
+}
+.table a {
+	color: #000000;
+}
+.categories .table-striped > tbody > tr > td,
+.subcategories .table-striped > tbody > tr > td,
+.users .table-striped > tbody > tr > td,
+.packages .table-striped > tbody > tr > td,
+.providers .table-striped > tbody > tr > td{
+	padding: 6px 8px;
+}
+.categories i.fa-list,
+.subcategories i.fa-list,
+.users i.fa-list,
+.packages i.fa-list,
+.products i.fa-list,
+.providers i.fa-list{
+	color: #189cbb;
+}
+
+.dataTables_length{
+	margin-top: 20px;
+}
+.emailMessage p{
+	padding: 10px;
+	font-size: 17px;
+}
+
+/* qualification fournisseur */
+
+div.stars {
+	min-width: 185px;
+  	display: inline-block;
+}
+ 
+input.star { display: none; }
+
+label.star {
+  	float: right;
+  	padding: 10px;
+  	font-size: 18px;
+  	color: #444;
+  	transition: all .2s;
+  	cursor: pointer;
+}
+
+input.star:checked ~ label.star:before {
+  	content: '\f005';
+  	color: #FD4;
+  	transition: all .25s;
+}
+
+
+input.star-5-q:checked ~ label.star:before,
+input.star-5-rqp:checked ~ label.star:before,
+input.star-5-dl:checked ~ label.star:before,
+input.star-5-c:checked ~ label.star:before,
+input.star-5-ep:checked ~ label.star:before {
+  	color: #FE7;
+  	text-shadow: 0 0 20px #952;
+}
+
+input.star-1-q:checked ~ label.star:before,
+input.star-1-rqp:checked ~ label.star:before,
+input.star-1-dl:checked ~ label.star:before,
+input.star-1-c:checked ~ label.star:before,
+input.star-1-ep:checked ~ label.star:before {
+	 color: #F62; 
+}
+
+label.star:hover { transform: rotate(-15deg) scale(1.3); }
+
+label.star:before {
+  	content: '\f006';
+  	font-family: FontAwesome;
+}
+
+.qualification h6{
+	font-size: 14px;
+    margin: 0 auto 14px;
+    padding: 10px 0;
+    border-bottom: 1px solid;
+    width: 93%;
+    text-transform: capitalize;
+}
+
+.fieldtoshow{
+	display: none;
+    width: 100%;
+    min-height: 173px;
+    background: #f6f6f6;
+    padding: 14px;
+    border: 1px solid rgba(54, 65, 80, 0.09);
+    margin-bottom: 20px;
+}
+.fieldtoshow .checkbox-field{
+	float: left;
+    margin-right: 37px;
+}
+.fieldtoshow .checkbox-field label{
+	cursor: pointer;
+}
+.checkbox-field input{
+	  width: 19px;
+	  height: 19px;
+	  position: relative;
+	  margin: 12px auto;
+	  background: #fcfff4;
+}
+.entete span{
+	cursor: pointer;
+	color: #5679a8;
+}
+
+.home-interface{
+	position: relative;
+}
+.welcome-text{
+	position: absolute;
+    z-index: 9;
+    top: 64px;
+    color: white;
+    font-style: italic;
+    padding: 0 20px;
+}
+.admin-icon{
+	padding-top: 39px ;
+}
+.admin-item{
+	margin: 0 auto;
+	max-width: 183px;
+}
+.user-icon{
+	padding-top: 39px ;
+}
+.icon{
+	position: relative;
+	background: #e2e2e2;
+	padding: 20px 5px 0;
+	min-height: 156px;
+}
+.icon p{
+	text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+    color: #7d7d7d;
+}
+.icon p.search-title{
+	margin-top: 25px !important;
+}
+.icon:hover{
+	background: #ffffff;
+	box-shadow: 0px 0px 14px #dcdcdc
+}
+.icon img{
+	margin: 0 auto;
+	cursor: pointer;
+	transition: all 2s;
+}
+.icon img:hover{
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+}
+.user-item{
+	margin: 0 auto;
+	max-width: 183px;
+}
+.ring-provider{
+	padding: 15px 14px;	
+}
+
+select[name="pricelog"]{
+	display: none;
+}
+.item i{
+	cursor: pointer;
+}
+#unitPriceEle:hover #unitPriceLogSelect{
+	display: block;
+}
+.item .description p{
+	text-align: justify;
+	font-size: 14px;
+}
+select.price{
+	min-width: 58px;
+    padding: 0 3px;
+    margin-left: -9px;
+}
+.form-control{
+	padding: 7px 13px;
+}
+.breadcrumb{
+	background-color: #e0e0e0;
+}
+.details select.form-control{
+	width: 50%;
+    padding: 0 8px;
+    height: 29px;
+}
+
+.sidebar-mini .sidebar .sidebar-wrapper .collapse .nav {
+    width: 265px;
+}
+@media (max-width: 400px) {
+	.images .fotorama img{
+		background: red;
+	}
+}
+.icon-small
+{
+    height:18px;
+    margin:0;
+	padding:0;
+}
+
+.icon-medium
+{
+    height:22px;
+	margin:0;
+	padding:0;
+}
+span.sku{
+	margin-left: 88px;
+}
+#form_fileExcel{
+	display: none;
+}
+.fileName{
+    font-size: 16px;
+    color: #333131;
+    padding-left: 10px;
+}
